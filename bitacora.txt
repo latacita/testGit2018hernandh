@@ -8,25 +8,38 @@
 ====== ============================ ================================
  (01)   git clone con la url del
         repositorio remoto
- (02)   con atom editar fichero
+ (02)   editar bitacora.txt
  (03)   Realizar commit y push
- (05)   commit "Paso 05"
+ (05)   add bitacora.txt
+        commit "Paso 05"
  (06)   branch develop
         checkout develop
  (07)   branch feature/Ticket220
         checkout feature/Ticket220
- (09)   commit "Paso 09"
+ (09)   add bitacora.txt
+        commit "Paso 09"
  (10)   checkout develop
  (11)   branch feature/Ticket221
         checkout feature/Ticket221
  (13)   stash
         checkout feature/Ticket220
- (15)   commit "Paso 15"
+ (15)   add bitacora.txt
+        commit "Paso 15"
  (16)   checkout feature/Ticket221
  (17)   stash apply
-        editar fichero pasos 15-16
- (18)   commit "Paso 18"
+        editar bitacora.txt
+ (18)   add bitacora.txt
+        commit "Paso 18"
  (19)   checkout develop
  (20)   branch feature/Ticket222
  (21)   checkout feature/Ticket220
  (22)   fast-forward
+ (23)   add bitacora.txt
+        commit "Paso 28"
+ (24)   checkout develop
+ (25)   merge feature/Ticket220 no ff    Fusion recursiva sin conflictos
+ (26)   merge feature/Ticket221 no ff    Fusion recursiva con conflictos
+        editar bitacora.txt
+        add bitacora.txt
+        commit
+        
