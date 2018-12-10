@@ -47,4 +47,12 @@
  (30)   push                             En sourcetree desmarcar opcion push
                                          all tags
  (31)   checkout feature/Ticket222
- (32)   merge develop 
+ (32)   merge develop
+ (34)   add bitacora.txt
+        commit "Paso 34"
+ (35)   checkout develop
+        merge feature/Ticket222 no ff   En sourcetree marcar opcion create a
+                                        commit even if fast-forward is possible
+ (36)   checkout master
+        merge develop no ff
+ (37)   editar bitacora.txt
