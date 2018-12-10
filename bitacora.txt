@@ -17,3 +17,10 @@
         checkout feature/Ticket220
  (13)   stash
         checkout feature/Ticket220
+ (17)   stash apply
+        editar fichero pasos 15-16
+ (18)   commit "Paso 18"
+ (19)   checkout develop
+ (20)   branch feature/Ticket222
+ (21)   checkout feature/Ticket220
+ (22)   fast-forward
