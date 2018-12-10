@@ -10,3 +10,8 @@
         repositorio remoto
  (02)   con atom editar fichero
  (03)   Realizar commit y push
+ (05)   commit "Paso 05"
+ (06)   branch develop
+        checkout develop
+ (07)   branch feature/Ticket220
+        checkout feature/Ticket220
